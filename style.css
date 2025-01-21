@@ -1,0 +1,50 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#resultSection {
+    margin-top: 20px;
+    text-align: left;
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+#loading {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Style for the input elements */
+input[type="file"] {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
