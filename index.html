@@ -9,11 +9,11 @@
 <body>
     <div class="container">
         <h1>XLSX to TXT Converter</h1>
-        
+
         <!-- Upload File -->
         <input type="file" id="fileInput" accept=".xlsx" />
         <button id="convertBtn">Konversi</button>
-        
+
         <!-- Sheet Selector -->
         <div id="sheetSelector"></div>
 
@@ -23,8 +23,9 @@
         <!-- Loading Indicator -->
         <div id="loading" style="display: none;">Processing...</div>
     </div>
-    
-    <script src="xlsx.full.min.js"></script>
+
+    <!-- SheetJS Library from CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
